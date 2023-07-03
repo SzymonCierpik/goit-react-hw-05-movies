@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import { getData } from "./API/Api";
+import { getData } from "API/Api";
 
 const Cast = () => {
   const [cast, setCast] = useState([]);
