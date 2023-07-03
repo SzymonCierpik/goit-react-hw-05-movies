@@ -1,7 +1,6 @@
 {
   "name": "react_template",
   "private": true,
-  "homepage": "https://szymoncierpik.github.io/goit-react-hw-05-movies/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
