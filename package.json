@@ -1,6 +1,7 @@
 {
   "name": "react_template",
   "private": true,
+  "homepage": "https://sc-goit-react-hw-05-movies.netlify.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
