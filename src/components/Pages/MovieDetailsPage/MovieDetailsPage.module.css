@@ -1,0 +1,18 @@
+.link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+  }
+  
+  .wrapper {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .image {
+    display: block;
+    width: 380px;
+    height: 500px;
+  }
