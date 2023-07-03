@@ -2,7 +2,7 @@ import { useRef, Suspense } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 import { BsBoxArrowLeft } from "react-icons/bs";
 import useMovieDetails from "../../Hooks/useMovieDetails";
-import defaultImg from "../../images/default_image.jpg";
+import defaultImg from "../../Images/default_image.jpg";
 import css from "./MovieDetailsPage.module.css";
 
 const MovieDetailsPage = () => {
