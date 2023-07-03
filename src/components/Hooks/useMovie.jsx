@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { getData } from "../../Api/api";
-
+import { getData } from "../../Api/Api"
 
 const useMovie = () => {
   const [page, setPage] = useState(1);
