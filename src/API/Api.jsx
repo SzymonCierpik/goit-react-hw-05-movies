@@ -9,7 +9,7 @@ const instance = axios.create({
   headers: { "Content-Type": "application/json" },
   params: {
     api_key: API_KEY,
-    language: "pl-PL",
+    language: "en-US",
   },
 });
 
