@@ -1,0 +1,1 @@
+import{u as c,r as s}from"./index-be176af0.js";import{g as i,A as m}from"./Api-61f38dee.js";const l=()=>{const{movieId:o}=c(),t=`3/movie/${Number(o)}?api_key=${m}&language=en-US`,[r,a]=s.useState([]);return s.useEffect(()=>{i(t).then(e=>{a({...e.data})}).catch(e=>{console.log(e.message)})},[t]),[r,a]};export{l as default};
