@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { getData } from "Api/Api";
+import { getData } from "../../../Api/Api";
 
 const HomePage = () => {
   const MOVIES_URL = `3/trending/movie/day`;
